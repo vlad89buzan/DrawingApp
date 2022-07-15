@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+@@include('html/head.html',{
+"title":"DrawingApp"
+})
+
+<body>
+	<div class="wrapper">
+		<!-- @@include('html/header.html',{}) -->
+		<main>
+			<canvas id="canvas" width="800" height="800"></canvas>
+			<div class="toolbox">
+				<button id="decrease">-</button>
+				<span id="size">20</span>
+				<button id="increase">+</button>
+				<input type="color" name="" id="color">
+				<button id="clear">X</button>
+			</div>
+		</main>
+		<!-- @@include('html/footer.html',{}) -->
+	</div>
+	<script src="js/app.min.js"></script>
+</body>
+
+</html>
